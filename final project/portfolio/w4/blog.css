@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 body {
-  border: 15px solid #b0bac0;
   padding: 20px;
   margin: 20px auto;
   width: 85%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
 }
+
+.intro{
+  border: 15px solid #b0bac0;
+}
+
 .date {
   color: #417bbd;
   text-transform: uppercase;

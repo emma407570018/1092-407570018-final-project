@@ -1,3 +1,53 @@
+/* back to homepage*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+nav {
+  font-family: 'Open Sans', sans-serif;
+  background: #e6dab6c2;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  &.scrolled {
+    background: #5ecece;
+    
+  }
+  ul {
+    float: right;
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+  }
+  li {
+    float: left;
+  }
+  a {
+    font-size: 1em;
+    color: rgb(90, 81, 81);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px 0 0 20px;
+    display: block;
+    &:hover {
+      color: darken(rgb(241, 94, 126), 7%);
+      font-weight: bolder;
+    }
+  }
+}
+ 
+ 
+ 
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.intro{
+    padding-top: 5rem;
+}
+
 * {
     padding: 0;
     margin: 0;
